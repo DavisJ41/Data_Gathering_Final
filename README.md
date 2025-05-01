@@ -27,17 +27,17 @@
 -  Data Validation: All of the categorical data was checked using the unique function to make sure everything was case-sensitive to ensure consistency in the entries.
 
 -  Data Columns for first dataset:
-    - name: object,
-    - gender: object,
-    - price: float64,
-    - support: object,
-    - experience: object,
-    - surface: object,
-    - midsole_drop_mm: float,
-    - weight_g: float,
-    - high_arch: boolean,
-    - medium_arch: boolean,
-    - flat_arch: boolean,
+    - name: object, states the name of the shoe
+    - gender: object, states if a shoe is Men's, Women's, or Unisex
+    - price: float64, lists the price of the shoe in USD
+    - support: object, states if a shoe has max support, basic support, or neutral support 
+    - experience: object, states if a shoe is made for speed, cushioning, energizing, or connecting
+    - surface: object, states if a shoe is made for roads or trails
+    - midsole_drop_mm: float, lists how many millimeters the midsole drop of the shoe is
+    - weight_g: float, lists how heavy the shoe is in grams
+    - high_arch: boolean, states if a shoe is available with a high arch
+    - medium_arch: boolean, states if a shoe is available with a medium arch
+    - flat_arch: boolean, states if a shoe is available with a flat arch
 
 - Data Columns for second dataset:
     - customer_id: int64,
