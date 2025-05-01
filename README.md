@@ -10,7 +10,7 @@
 <b>Download link: </b> Available to download as a csv file in this repository <br>
 <b>Date of Access: </b> 4/17/25
 
-<br><br>
+<br>
 
 -  Data Source: ​ The first dataset is from a dataset created by Hannah Collins on Kaggle. The data was first uploaded around five years ago, according to Kaggle. The data is a csv file. <br><br> Collins, H (2020). <i>2020 Brooks Running Shoes.</i> Kaggle. Data accessed 3/20/25. Available from: https://www.kaggle.com/datasets/hannahcollins/2020-brooks-running-shoes.
 
