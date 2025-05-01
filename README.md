@@ -14,15 +14,15 @@
 
 -  Data Source: The first dataset is from a dataset created by Hannah Collins on Kaggle. The data was first uploaded around five years ago, according to Kaggle. The data is a csv file. The second dataset was randomly generated for the purposes of this project on Mockaroo. The data is a csv file. <br><br> Collins, H (2020). <i>2020 Brooks Running Shoes.</i> Kaggle. Data accessed 3/20/25. Available from: https://www.kaggle.com/datasets/hannahcollins/2020-brooks-running-shoes. <br><br>
 
--  Collection Method: The first dataset was scraped off of Brook's website by Hannah Collins before it was uploaded to Kaggle. The second dataset was randomly generated using the website Mockaroo. The customers were given a minimum and maximum budget, and for the rest of the variables all of the options were given to be randomly selected from.
+-  Collection Method: The first dataset was scraped off of Brook's website by Hannah Collins before it was uploaded to Kaggle. The second dataset was randomly generated using the website Mockaroo (https://www.mockaroo.com/). The customers requested a maximum budget, and for the rest of the variables all of the options were given to be randomly selected from.
 
 -  Extraction Method: ​ The first dataset was exported from https://www.kaggle.com/datasets/hannahcollins/2020-brooks-running-shoes as a .csv file. The second dataset was randomly generated on Mockaroo.
 
--  Data Cleaning and Manipulation: ​ After downloading the data, the .csv file was read into a JupyterLab notebook and cleaned using python. The column names were changed to lowercase with no spaces or special characters to use SQL in the future. Unnecessary columns about specific shoes were dropped. For the two missing values in the midsole_drop_mm column, they were obtained by us from the Brooks website and entered into our new dataframe. The remaining missing values in the arch level columns were all filled in with 'No' because they were originally left blank if the answer was not 'Yes'. We then decided to convert all of these 'Yes' and 'No' values into booleans.
+-  Data Cleaning and Manipulation: ​ After downloading the data, the .csv file was read into a JupyterLab notebook and cleaned using python. The column names were changed to lowercase with no spaces or special characters to use SQL in the future. Unnecessary columns about specific shoes were dropped. For the two missing values in the midsole_drop_mm column, they were obtained by us from the Brooks website and entered manually into our new dataframe. The remaining missing values in the arch level columns were all filled in with 'No' because they were originally left blank if the answer was not 'Yes'. We then decided to convert all of these 'Yes' and 'No' values into booleans.
 
--  Data Units: The units for all price values are USD, the midsole drop units are in mm, and the weight units are in g.
+-  Data Units: The units for all price values are USD, the midsole drop units are in millimeters (mm), and the weight units are in grams (g).
 
--  Data Formulas: Our formula for assigning a shoe a match score for a specific customer looks at gender, price, support, and arch type. We decided on weighting these values in the order of gender > price > support > arch type. 
+-  Data Formulas: Our formula for assigning a shoe a match score for a specific customer looks at the customer's gender, price range (max budget), support, and arch type. We decided on weighing these values in the order of gender > price > support > arch type. Specifically, on a normalized scale ranging from zero to one, we classified gender as 0.4, price as 0.3, support as 0.2, and arch type as 0.1. The sum of these values is equal to the match score of that shoe for that customer.
 
 -  Data Validation: All of the categorical data was checked using the unique function to make sure everything was case-sensitive to ensure consistency in the entries.
 
