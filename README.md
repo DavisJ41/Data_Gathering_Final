@@ -18,7 +18,7 @@
 
 -  Extraction Method: ​ The first dataset was exported from https://www.kaggle.com/datasets/hannahcollins/2020-brooks-running-shoes as a .csv file. The second dataset was randomly generated on Mockaroo.
 
--  Data Cleaning and Manipulation: ​ After downloading the data, the .csv file was read into a JupyterLab notebook and cleaned using python. The column names were changed to lowercase with no spaces or special characters to use SQL in the future. Unnecessary columns about specific shoes were dropped. For the two missing values in the midsole_drop_mm column, they were obtained by us from the Brooks website and entered into our new dataframe. The remaining NA's in the arch level columns were all filled in with 'No' because they were originally left blank if the answer was not 'Yes'. We then decided to convert all of these 'Yes' and 'No' values into booleans.
+-  Data Cleaning and Manipulation: ​ After downloading the data, the .csv file was read into a JupyterLab notebook and cleaned using python. The column names were changed to lowercase with no spaces or special characters to use SQL in the future. Unnecessary columns about specific shoes were dropped. For the two missing values in the midsole_drop_mm column, they were obtained by us from the Brooks website and entered into our new dataframe. The remaining missing values in the arch level columns were all filled in with 'No' because they were originally left blank if the answer was not 'Yes'. We then decided to convert all of these 'Yes' and 'No' values into booleans.
 
 -  Data Units: The units for all price values are USD, the midsole drop units are in mm, and the weight units are in g.
 
