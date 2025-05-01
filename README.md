@@ -26,6 +26,25 @@
 
 -  Data Validation: All of the categorical data was checked using the unique function to make sure everything was case-sensitive to ensure consistency in the entries.
 
--  Data Columns:
+-  Data Columns for first dataset:
+  - name: object,
+  - gender: object,
+  - price: float64,
+  - support: object,
+  - experience: object,
+  - surface: object,
+  - midsole_drop_mm: float,
+  - weight_g: float,
+  - high_arch: boolean,
+  - medium_arch: boolean,
+  - flat_arch: boolean,
 
--  Data Usage: ​ The dataset is intended for public access and use.
+- Data Columns for second dataset:
+  - customer_id: int64,
+  - price_range: int64,
+  - customer_support: object,
+  - run_type: object,
+  - arch_type: object,
+  - customer_gender: object,
+
+-  Data Usage: ​ Both of our datasets are intended for public access and use.
