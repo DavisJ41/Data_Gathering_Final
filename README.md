@@ -40,11 +40,11 @@
     - flat_arch: boolean, states if a shoe is available with a flat arch
 
 - Data Columns for second dataset:
-    - customer_id: int64,
-    - price_range: int64,
-    - customer_support: object,
-    - run_type: object,
-    - arch_type: object,
-    - customer_gender: object,
+    - customer_id: int64, lists the customer's unique ID number
+    - price_range: int64, lists the customer's budget in USD
+    - customer_support: object, states if the customer prefers max support, basic support, or neutral support
+    - run_type: object, states if the customer is looking for a shoe made for roads or trails
+    - arch_type: object, states if the customer is looking for a shoe with a high, medium, or flat arch
+    - customer_gender: object, states if the customer is looking for a Men's or Women's shoe
 
 -  Data Usage: ​ Both of our datasets are intended for public access and use.
