@@ -12,7 +12,8 @@
 
 <br>
 
--  Data Source: ​ The first dataset is from a dataset created by Hannah Collins on Kaggle. The data was first uploaded around five years ago, according to Kaggle. The data is a csv file. <br><br> Collins, H (2020). <i>2020 Brooks Running Shoes.</i> Kaggle. Data accessed 3/20/25. Available from: https://www.kaggle.com/datasets/hannahcollins/2020-brooks-running-shoes.
+-  Data Source: ​ The first dataset is from a dataset created by Hannah Collins on Kaggle. The data was first uploaded around five years ago, according to Kaggle. The data is a csv file. <br><br> Collins, H (2020). <i>2020 Brooks Running Shoes.</i> Kaggle. Data accessed 3/20/25. Available from: https://www.kaggle.com/datasets/hannahcollins/2020-brooks-running-shoes. <br><br>
+The second dataset was randomly generated for the purposes of this project on Mockaroo. The data is a csv file.
 
 -  Collection Method: The first dataset was scraped off of Brook's website by Hannah Collins before it was uploaded to Kaggle. The second dataset was randomly generated using the website Mockaroo. The customers were given a minimum and maximum budget, and for the rest of the variables all of the options were given to be randomly selected from.
 
