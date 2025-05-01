@@ -16,7 +16,7 @@
 
 -  Collection Method: The first dataset was scraped off of Brook's website by Hannah Collins before it was uploaded to Kaggle. The second dataset was randomly generated using the website Mockaroo (https://www.mockaroo.com/). The customers requested a maximum budget, and for the rest of the variables all of the options were given to be randomly selected from.
 
--  Extraction Method: ​ The first dataset was exported from https://www.kaggle.com/datasets/hannahcollins/2020-brooks-running-shoes as a .csv file. The second dataset was randomly generated on Mockaroo.
+-  Extraction Method: ​ The first dataset was exported from https://www.kaggle.com/datasets/hannahcollins/2020-brooks-running-shoes as a .csv file. The second dataset was randomly generated on Mockaroo (https://www.mockaroo.com/).
 
 -  Data Cleaning and Manipulation: ​ After downloading the data, the .csv file was read into a JupyterLab notebook and cleaned using python. The column names were changed to lowercase with no spaces or special characters to use SQL in the future. Unnecessary columns about specific shoes were dropped. For the two missing values in the midsole_drop_mm column, they were obtained by us from the Brooks website and entered manually into our new dataframe. The remaining missing values in the arch level columns were all filled in with 'No' because they were originally left blank if the answer was not 'Yes'. We then decided to convert all of these 'Yes' and 'No' values into booleans.
 
